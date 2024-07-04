@@ -1,0 +1,84 @@
+@mixin bbpress--xl() {
+	/* BBPress & BuddyPress */
+	#bbpress-forums li.bbp-header, #bbpress-forums li.bbp-footer, .bbp-forums .bbp-forum-title, li.bbp-topic-title .bbp-topic-permalink {
+		font-size: 1.1em;
+	}
+}
+
+@mixin bbpress--md() {
+	/* BBPress & BuddyPress */
+	#bbpress-forums > #subscription-toggle, #bbpress-forums > .bbp-topic-tags {
+		position:static;
+		margin-bottom: 1em;
+	}
+	#buddypress #item-header-cover-image #item-header-avatar,
+	.bp-user #buddypress #item-header #item-header-cover-image #item-header-avatar,
+	#buddypress div#item-header #item-header-cover-image #item-header-content {
+		width: auto;
+		text-align:left;
+	}
+	#buddypress div#item-header #item-header-cover-image #item-header-content {
+		max-width: 70%;
+	}
+	#buddypress .standard-form div.submit {
+		padding:0;
+	}
+}
+
+@mixin bbpress--sm() {
+	/* BBPress & BuddyPress */
+	#buddypress .users-nav,
+	#buddypress #item-nav {
+		float: none;
+		margin: 0 0 1em 0;
+		width: auto;
+	}
+	#buddypress .bp-subnavs ul li,
+	#buddypress .users-nav ul li,
+	#buddypress #item-nav ul li {
+		display:inline-block;
+		margin: 0 1px 1px 0;
+	}
+	#buddypress div#item-header #item-header-cover-image #item-header-content {
+		max-width: none;
+	}
+	#buddypress #item-header-cover-image #item-header-avatar img.avatar {
+		margin: 0 1.5em 0 0;
+		max-width: 100px;
+	}
+	#buddypress #item-header-cover-image #item-buttons {
+		position:static;
+		right: auto;
+		top: auto;
+		margin: 0.5em 0;
+	}
+	#buddypress div#item-header div#item-meta {
+		margin: 5px 0 15px;
+	}
+}
+
+@mixin bbpress--xs() {
+	/* BBPress & BuddyPress */
+	.bbpress_style_callouts.type-topic #bbpress-forums ul.bbp-replies .bbp-reply-header {
+		margin-left: 0;
+		padding: 0 10px 1em;
+	}
+	#buddypress div#subnav.item-list-tabs ul li.last {
+		display:block;
+		margin-top:3px;
+		float: left;
+	}
+	#buddypress div#subnav.item-list-tabs ul li.last:before {
+		display:none;
+	}
+	#buddypress #cover-image-container {
+		padding: 1.25em;
+	}
+	#buddypress #item-header-cover-image #item-header-avatar img.avatar {
+		max-width: 80px;
+	}
+	#buddypress div#item-header-cover-image .user-nicename a,
+	#buddypress div#item-header-cover-image .user-nicename {
+		font-size:1.5em;
+	}
+}

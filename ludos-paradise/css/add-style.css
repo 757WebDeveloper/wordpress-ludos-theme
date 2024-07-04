@@ -1,0 +1,51 @@
+.sc_content_light .sc_content_title,
+.sc_content_bordered .sc_content_title {
+    background-image: url(../images/top-header.jpg);
+}
+.author-info,
+.related_wrap_title,
+.comments_form_title,
+.comments_list_title,
+.post-excerpt .excerpt-title .post_title {
+    background-image: url(../images/top-header.jpg);
+}
+.sc_action_item.with_image .sc_action_item_inner {
+    background-image: url(../images/action_title.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bbpress-forums li.bbp-footer,
+#bbpress-forums li.bbp-header {
+    background-image: url(../images/top-header.jpg);
+}
+.sc_layouts_cart_widget .cart_list::-webkit-scrollbar {
+    width: 10px;
+}
+.sc_layouts_cart_widget .cart_list::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.15);
+}
+.select2-container.select2-container--default span.select2-selection {
+    min-height: 36px;
+}
+.sc_layouts_742 .slider_container {
+    max-height: 269px;
+}
+@media (max-width: 1441px) {
+
+}
+
+@media (max-width: 1279px) {
+
+}
+
+@media (max-width: 1023px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 479px) {
+
+}
